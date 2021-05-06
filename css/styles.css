@@ -1,0 +1,24 @@
+body{
+  background-color: #8fd6e1;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.who_am_I_image{
+  position: relative;
+  bottom: 64.625rem;
+}
+
+.Title{
+  position: relative;
+  bottom: 64.375rem;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.Subtitle{
+  position: relative;
+  bottom: 64.375rem;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
