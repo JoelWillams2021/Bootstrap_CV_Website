@@ -4,21 +4,6 @@ body{
   overflow-x: hidden;
 }
 
-.who_am_I_image{
-  position: relative;
-  bottom: 64.625rem;
-}
-
-.Title{
-  position: relative;
-  bottom: 64.375rem;
-  font-family: 'Poppins', sans-serif;
-  color: black;
-}
-
-.Subtitle{
-  position: relative;
-  bottom: 64.375rem;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-}
+ .who_am_I_image{
+   position: relative;
+ }
