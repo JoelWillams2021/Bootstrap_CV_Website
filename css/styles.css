@@ -4,6 +4,22 @@ body{
   overflow-x: hidden;
 }
 
- .who_am_I_image{
-   position: relative;
- }
+@media only screen and (max-width: 426px) {
+  .photo_of_me{
+    width: 129px;
+    height: 136px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1441px)  {
+  .photo_of_me{
+    width: 339px;
+    height: 349px;
+  }
+}
+
+.photo_of_me{
+  display: block;
+  margin: 0 auto;
+  max-width: 50vw;
+}
