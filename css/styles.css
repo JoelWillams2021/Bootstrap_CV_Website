@@ -37,6 +37,18 @@ body{
   font-size: 5.25vw;
 }
 
+@media only screen and (min-width: 319px) and (max-width: 1022px) {
+  .About_me{
+    font-size: 9.25vw;
+  }
+}
+
+@media only screen and (min-width: 1023px)  {
+  .About_me{
+    font-size: 5.25vw;
+  }
+}
+
 .About_me_paragraph{
   font-family: 'Roboto', sans-serif;
   text-align: justify;
@@ -60,6 +72,55 @@ body{
 
 @media only screen and (min-width: 767px) and (max-width: 878px)  {
   .About_me_paragraph{
+    font-size: 3.1vw;
+  }
+}
+
+@media only screen and (min-width: 879px) and (max-width: 1025px)  {
+  .About_me_paragraph{
+    font-size: 2vw;
+  }
+}
+
+.Education_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 1022px) {
+  .Education_title{
+    font-size: 9.25vw;
+  }
+}
+
+@media only screen and (min-width: 1023px)  {
+  .Education_title{
+    font-size: 5.25vw;
+  }
+}
+
+.School_name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8vw;
+  margin-left: 3vw;
+}
+
+
+@media only screen and (max-width: 426px) {
+  .School_name{
+    font-size: 4.3vw;
+    margin-left: 5vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 766px)  {
+  .School_name{
+    font-size: 2.6vw;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 878px)  {
+  .School_name{
     font-size: 3.1vw;
   }
 }
