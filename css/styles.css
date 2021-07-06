@@ -4,6 +4,13 @@ body{
   overflow-x: hidden;
 }
 
+.photo_of_me{
+  display: block;
+  margin: 0 auto;
+  max-width: 50vw;
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 426px) {
   .photo_of_me{
     width: 129px;
@@ -11,15 +18,52 @@ body{
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1441px)  {
+@media only screen and (min-width: 426px) and (max-width: 655px)  {
+  .photo_of_me{
+    width: 157px;
+    height: 162px;
+  }
+}
+
+@media only screen and (min-width: 656px) and (max-width: 1441px)  {
   .photo_of_me{
     width: 339px;
     height: 349px;
   }
 }
 
-.photo_of_me{
-  display: block;
-  margin: 0 auto;
-  max-width: 50vw;
+.About_me{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+}
+
+.About_me_paragraph{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  line-height: 2;
+  font-size: 1.6vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .About_me_paragraph{
+    font-size: 4.3vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 766px)  {
+  .About_me_paragraph{
+    font-size: 2.6vw;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 878px)  {
+  .About_me_paragraph{
+    font-size: 3.1vw;
+  }
+}
+
+@media only screen and (min-width: 879px) and (max-width: 1025px)  {
+  .About_me_paragraph{
+    font-size: 2vw;
+  }
 }
