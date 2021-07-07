@@ -64,7 +64,7 @@ body{
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 766px)  {
+@media only screen and (min-width: 426px) and (max-width: 767px)  {
   .About_me_paragraph{
     font-size: 2.6vw;
   }
@@ -76,7 +76,7 @@ body{
   }
 }
 
-@media only screen and (min-width: 879px) and (max-width: 1025px)  {
+@media only screen and (min-width: 878px) and (max-width: 1025px)  {
   .About_me_paragraph{
     font-size: 2vw;
   }
@@ -87,7 +87,7 @@ body{
   font-size: 5.25vw;
 }
 
-@media only screen and (min-width: 319px) and (max-width: 1022px) {
+@media only screen and (min-width: 319px) and (max-width: 1023px) {
   .Education_title{
     font-size: 9.25vw;
   }
@@ -109,24 +109,121 @@ body{
 @media only screen and (max-width: 426px) {
   .School_name{
     font-size: 4.3vw;
-    margin-left: 5vw;
+    margin-left: 9vw;
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 766px)  {
+@media only screen and (min-width: 426px) and (max-width: 767px)  {
   .School_name{
     font-size: 2.6vw;
+    margin-left: 25vw;
   }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 878px)  {
+@media only screen and (min-width: 767px) and (max-width: 879px)  {
   .School_name{
     font-size: 3.1vw;
+    margin-left: 19.5vw;
   }
 }
 
 @media only screen and (min-width: 879px) and (max-width: 1025px)  {
   .About_me_paragraph{
     font-size: 2vw;
+  }
+}
+
+.Extracurriculars_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8vw;
+  margin-left: 12vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .Extracurriculars_title{
+    font-size: 5.6vw;
+    margin-left: 26vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Extracurriculars_title{
+    font-size: 4.6vw;
+    margin-left: 31vw;
+  }
+}
+
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .Extracurriculars_title{
+    font-size: 4.6vw;
+    margin-left: 31vw;
+  }
+}
+
+.Extracurriculars_text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+  margin-left: -10.5vw;
+}
+
+
+
+@media only screen and (max-width: 426px) {
+  .Extracurriculars_text{
+    font-size: 4.4vw;
+    margin-left: -3vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Extracurriculars_text{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .Extracurriculars_text{
+    font-size:  2.9vw;
+    margin-left: -4.5vw;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+  .Extracurriculars_text{
+    font-size: 1.8vw;
+    margin-left: -3.5vw;
+  }
+}
+
+.Education_image{
+  margin-top: -43vw;
+  margin-left: 55vw;
+  width: 40vw;
+  height: 40vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .Education_image{
+    margin-top: -17vw;
+    margin-left: 70vw;
+    width: 26vw;
+    height: 31vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Education_image{
+    margin-top: -116vw;
+    margin-left: 62vw;
+    width: 36vw;
+    height: 81vw;
+  }
+}
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .Education_image{
+    margin-top: -146vw;
+    margin-left: 55vw;
+    width: 42vw;
+    height: 40vw;
   }
 }
