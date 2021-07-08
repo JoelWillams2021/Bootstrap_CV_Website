@@ -130,6 +130,7 @@ body{
 @media only screen and (min-width: 879px) and (max-width: 1025px)  {
   .About_me_paragraph{
     font-size: 2vw;
+    word-spacing: .25vw;
   }
 }
 
