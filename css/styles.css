@@ -160,12 +160,11 @@ body{
   }
 }
 
+
 .Extracurriculars_text{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5vw;
-  margin-left: -10.5vw;
 }
-
 
 
 @media only screen and (max-width: 426px) {
@@ -195,10 +194,16 @@ body{
   }
 }
 
+@media only screen and (min-width: 1275px) {
+  .Extracurriculars_text{
+    margin-left: -11vw;
+  }
+}
+
 .Education_image{
   margin-top: -43vw;
   margin-left: 55vw;
-  width: 40vw;
+  max-width: 40vw;
   height: 40vw;
 }
 
@@ -214,8 +219,7 @@ body{
 @media only screen and (min-width: 426px) and (max-width: 658px) {
   .Education_image{
     margin-top: -116vw;
-    margin-left: 62vw;
-    width: 36vw;
+    margin-left: 56vw;
     height: 81vw;
   }
 }
@@ -223,7 +227,58 @@ body{
   .Education_image{
     margin-top: -146vw;
     margin-left: 55vw;
-    width: 42vw;
     height: 40vw;
+  }
+}
+
+.Work_and_volunteer_experience{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 1023px) {
+  .Work_and_volunteer_experience{
+    font-size: 9.25vw;
+  }
+}
+
+th, td {
+  font-family: 'Roboto', sans-serif;
+  padding: .75vw;;
+  text-align: left;
+}
+
+@media only screen and (min-width: 1000px) {
+  th,td{
+    font-size: 1.3vw;
+  }
+}
+
+.Work_image{
+  margin-top: -33vw;
+  margin-left: 52vw;
+  max-width: 40vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .Work_image{
+    margin-top: -1vw;
+    margin-left: 28vw;
+    height: 44vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Work_image{
+    margin-top: -109vw;
+    margin-left: 53vw;
+    height: 44vw;
+  }
+}
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .Work_image{
+    margin-top: -53vw;
+    margin-left: 52vw;
+    max-width: 42vw;
   }
 }
