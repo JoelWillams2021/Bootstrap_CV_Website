@@ -72,7 +72,7 @@ body{
 
 @media only screen and (min-width: 767px) and (max-width: 878px)  {
   .About_me_paragraph{
-    font-size: 3.1vw;
+    font-size: 2.1vw;
   }
 }
 
@@ -386,10 +386,5 @@ th, td {
 @media only screen and (min-width: 426px) and (max-width: 658px) {
   .Skills_image{
     margin-top: -106vw;
-  }
-}
-@media only screen and (min-width: 658px) and (max-width: 769px) {
-  .Skills_image{
-
   }
 }
