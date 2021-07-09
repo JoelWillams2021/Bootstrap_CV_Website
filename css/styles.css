@@ -1,6 +1,5 @@
 body{
-  background-color: #8fd6e1;
-  margin: 0;
+  background-color: #A2DBFA;
   overflow-x: hidden;
 }
 
@@ -171,7 +170,6 @@ body{
 @media only screen and (max-width: 426px) {
   .Extracurriculars_text{
     font-size: 4.4vw;
-    margin-left: -3vw;
   }
 }
 
@@ -184,7 +182,6 @@ body{
 @media only screen and (min-width: 658px) and (max-width: 769px) {
   .Extracurriculars_text{
     font-size:  2.9vw;
-    margin-left: -4.5vw;
   }
 }
 
@@ -281,5 +278,118 @@ th, td {
     margin-top: -53vw;
     margin-left: 52vw;
     max-width: 42vw;
+  }
+}
+
+.Skills_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 1023px) {
+  .Skills_title{
+    font-size: 9.25vw;
+  }
+}
+
+.Hard_skills{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 426px) {
+  .Hard_skills{
+    font-size: 5.25vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+  .Hard_skills{
+    font-size: 4.25vw;
+  }
+}
+
+.Hard_skills_table{
+  font-size: 2.4vw;
+  margin-left: -0.5vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 426px) {
+  .Hard_skills_table{
+    margin-left: -2.05vw;
+    font-size: 4.4vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Hard_skills_table{
+    font-size: 3.4vw;
+    margin-left: -1.5vw;
+  }
+}
+
+.Soft_skills{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25vw;
+  margin-top: 1vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 426px) {
+  .Soft_skills{
+    font-size: 5.25vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+  .Soft_skills{
+    font-size: 4.25vw;
+  }
+}
+
+.Soft_skills_text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 426px) {
+  .Soft_skills_text{
+    font-size: 4.25vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Soft_skills_text{
+    font-size: 3.25vw;
+  }
+}
+
+@media only screen and (min-width: 658px) and (max-width: 999px) {
+  .Soft_skills_text{
+    font-size: 2vw;
+  }
+}
+
+.Skills_image{
+  margin-top: -37vw;
+  margin-left: 55vw;
+  max-width: 38vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .Skills_image{
+    margin-top: -2vw;
+    margin-left: 30vw;
+    max-width: 38vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Skills_image{
+    margin-top: -106vw;
+  }
+}
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .Skills_image{
+
   }
 }
