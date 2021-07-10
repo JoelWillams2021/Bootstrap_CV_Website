@@ -388,3 +388,70 @@ th, td {
     margin-top: -106vw;
   }
 }
+
+.Accolades_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 1023px) {
+  .Accolades_title{
+    font-size: 9.25vw;
+  }
+}
+
+.Accolades_text{
+  font-family: 'Roboto', sans-serif;
+  margin-left: -1.5vw;
+  font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .Accolades_text{
+    margin-left: -7.5vw;
+    padding-left: 3.5vw;
+    font-size: 4.25vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .Accolades_text{
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width: 658px) and (max-width: 999px) {
+  .Accolades_text{
+    font-size: 2.1vw;
+  }
+}
+
+.accolade_image{
+  margin-top: -16vw;
+  margin-left: 61vw;
+  max-height: 14vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .accolade_image{
+    margin-left: 29vw;
+    max-height: 22vw;
+    margin-top: -2vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 658px) {
+  .accolade_image{
+    margin-left: 53vw;
+    max-height: 22vw;
+    margin-top: -43vw;
+  }
+}
+
+@media only screen and (min-width: 658px) and (max-width: 769px) {
+  .accolade_image{
+    margin-top: -30vw;
+    margin-left: 61vw;
+    max-height: 19vw;
+  }
+}
