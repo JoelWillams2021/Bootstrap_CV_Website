@@ -1,6 +1,11 @@
+html, body {
+  overflow-x: hidden;
+}
+
+
 body{
   background-color: #A2DBFA;
-  overflow-x: hidden;
+  position: relative;
 }
 
 .photo_of_me{
