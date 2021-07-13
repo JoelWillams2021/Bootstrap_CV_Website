@@ -393,6 +393,7 @@ th, td {
 .Accolades_title{
   font-family: 'Poppins', sans-serif;
   font-size: 5.25vw;
+  margin-top: 3vh;
 }
 
 @media only screen and (min-width: 319px) and (max-width: 1023px) {
@@ -453,5 +454,84 @@ th, td {
     margin-top: -30vw;
     margin-left: 61vw;
     max-height: 19vw;
+  }
+}
+
+.Project_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 5.25vw;
+  margin-top: 3vh;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 1023px) {
+  .Project_title{
+    font-size: 9.25vw;
+  }
+}
+
+
+@media only screen and (max-width: 426px) {
+  .Project_image{
+    width: 63vw;
+  }
+}
+
+.Project_one_title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25vw;
+  margin-top: 2vh;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 600px) {
+  .Project_one_title{
+    font-size: 6.25vw;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  .Project_one_title{
+    font-size: 4.25vw;
+  }
+}
+
+.My_value_added{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.9vw;
+  margin-top: 2vw;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 999px) {
+  .My_value_added{
+    font-size: 5.6vw;
+  }
+}
+
+@media only screen and (min-width: 999px) and (max-width: 1399px) {
+  .My_value_added{
+    font-size: 2.1vw;
+  }
+}
+
+.What_I_did_first_text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4vw;
+}
+
+@media only screen and (max-width: 426px) {
+  .What_I_did_first_text{
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 657px) {
+  .What_I_did_first_text{
+    font-size: 2vw;
+  }
+}
+
+
+@media only screen and (min-width: 657px) and (max-width: 769px) {
+  .What_I_did_first_text{
+    font-size: 2.1vw;
   }
 }
