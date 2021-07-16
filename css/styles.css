@@ -535,3 +535,42 @@ th, td {
     font-size: 2.1vw;
   }
 }
+
+.Contact_title{
+  margin: 3vh;
+}
+
+.bottom-container{
+  background-color: white;
+  padding-bottom: .5vh ;
+}
+
+.footer-link-button{
+  padding-top: 2.5vh;
+}
+
+.copyright{
+  padding-top: 1.5vh;
+}
+
+.fa-linkedin{
+  padding: 11px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 18px 2px;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github{
+  padding: 11px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 18px 2px;
+  background: #007bb5;
+  color: black;
+}
